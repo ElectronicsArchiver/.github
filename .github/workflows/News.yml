@@ -7,15 +7,11 @@ on:
 
     pull_request:
 
-        branches : [ main ]
-        
         paths :
             
             -   'News/**'
 
     push:
-
-        branches : [ main ]
         
         paths :
             
