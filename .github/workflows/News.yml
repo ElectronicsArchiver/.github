@@ -34,7 +34,7 @@ jobs :
 
             -   name : Checkout
                 uses : actions/checkout@v3
-                if : ${{ github.event_name == 'push' }}
+                if : ${{ github.event_name != 'pull_request' }}
                 
             -   name : Checkout
                 uses : actions/checkout@v3
