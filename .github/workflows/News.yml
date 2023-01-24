@@ -47,4 +47,5 @@ jobs :
                     
                     default_author : github_actor
                     message : Updated News Section
+                    ref : ${{ github.ref_name }}
                     add : profile/README.md
